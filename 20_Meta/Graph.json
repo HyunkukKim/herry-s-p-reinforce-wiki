@@ -1,4 +1,9 @@
 {
-  "nodes": [],
-  "links": []
+  "nodes": [
+    { "id": "Week1_Planning_to_First_Revenue", "label": "1주차: 기획 → 첫 수익 (1/10)", "type": "Wiki", "path": "10_Wiki/Projects/Revenue_Sprint/Week1_Planning_to_First_Revenue.md" },
+    { "id": "Revenue_Sprint", "label": "Revenue Sprint Project", "type": "Project", "path": "10_Wiki/Projects/Revenue_Sprint" }
+  ],
+  "links": [
+    { "source": "Week1_Planning_to_First_Revenue", "target": "Revenue_Sprint", "type": "Parent" }
+  ]
 }
